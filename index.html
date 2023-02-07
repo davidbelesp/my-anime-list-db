@@ -9,10 +9,17 @@
 </head>
 <body>
     <div class="content">
-
+        <div class="wrapper">
+            <img src="" alt="logo">
+            <input type="text" name="user" id="username">
+            <button id="send">Log in</button>
+        </div>
     </div>
 </body>
 <script>
-    fetchMAL()
+    document.getElementById("send").addEventListener("click",()=>{
+        userFetch(document.getElementById("username").value)
+        console.log(document.getElementById("username").value)
+    })
 </script>
 </html>

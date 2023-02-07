@@ -2,11 +2,13 @@
 <?php
 require('config.php');
 
-$url = "https://api.myanimelist.net/v2/anime?q=one&limit=4";
-$url2 = "https://api.myanimelist.net/v2/users/$USERNAME/mangalist";
+$user = $_GET["user"];
 
-$curl = curl_init($url2);
-curl_setopt($curl, CURLOPT_URL, $url2);
+// $url = "https://api.myanimelist.net/v2/anime?q=one&limit=4";
+$url = "https://api.myanimelist.net/v2/users/$user/mangalist";
+
+$curl = curl_init($url);
+curl_setopt($curl, CURLOPT_URL, $url);
 curl_setopt($curl, CURLOPT_RETURNTRANSFER, true);
 
 $headers = array(
