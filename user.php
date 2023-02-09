@@ -11,13 +11,10 @@
 <body>
     <div class="content">
         <div class="nav-bar">
+            <img id="nav-pic" alt="user-picture">
             <ul>
-                <li><a href="#">Link1</a></li>
-                <li><a href="#">Link2</a></li>
-                <li><a href="#">Link3</a></li>
-                <li><a href="#">Link4</a></li>
+                <li><a href=""">Log out</a></li>
             </ul>
-            <img id="nav-pic"  alt="user-picture">
         </div>
         <div class="wrapper">
 
@@ -27,116 +24,108 @@
                     <img id="profile-pic" alt="user-picture">
                 </div>
                 <div class="user-info">
-                    <table class="user-info">
-                        <tr>
-                            <td>Gender</td>
-                            <td id="gender"></td>
-                        </tr>
-                        <tr>
-                            <td>Joined</td>
-                            <td id="joined"></td>
-                        </tr>
-                        <tr>
-                            <td>Location</td>
-                            <td id="location"></td>
-                        </tr>
-                    </table>
+                    <div class="user-info">
+                        <div class="tdata">
+                            <p>Gender</p>
+                            <p id="gender"></p>
+                        </div>
+                        <div class="tdata">
+                            <p>Joined</p>
+                            <p id="joined"></p>
+                        </div>
+                        <div class="tdata">
+                            <p>Location</p>
+                            <p id="location"></p>
+                        </div>
+                    </div>
                 </div>
             </div>
 
             <div class="stats box"> 
-                <div class="manga-stats">
-                    <p>Manga Stats</p>
-                    <table id="manga-stats-table">
-                        <tr>
-                            <td>Mean score</td>
-                            <td id="manga-stats-meanscore"></td>
-                        </tr>
-                        <tr>
-                            <td>Hours Read</td>
-                            <td id="manga-stats-hours"></td>
-                        </tr>
-                        <tr>
-                            <td>Volumes Read</td>
-                            <td id="manga-stats-volumes"></td>
-                        </tr>
-                        <tr>
-                            <td>Chapters Read</td>
-                            <td id="manga-stats-chapters"></td>
-                        </tr>
-                        <tr>
-                            <td>Pages Read</td>
-                            <td id="manga-stats-pages"></td>
-                        </tr>
-                    </table>
-                    <p>Manga Status</p>
-                    <table id="manga-status-table">
-                        <tr>
-                            <td>Completed</td>
-                            <td id="manga-completed"></td>
-                        </tr>
-                        <tr>
-                            <td>Reading</td>
-                            <td id="manga-reading"></td>
-                        </tr>
-                        <tr>
-                            <td>On Hold</td>
-                            <td id="manga-onhold"></td>
-                        </tr>
-                        <tr>
-                            <td>Plan to read</td>
-                            <td id="manga-plantoread"></td>
-                        </tr>
-                        <tr>
-                            <td>Total entries</td>
-                            <td id="manga-total"></td>
-                        </tr>
 
-                        
-                    </table>
+                <div id="manga-stats-table">
+                    <p id="title">Manga Stats</p>
+                    <div class="tdata">
+                        <p id="dataname">Mean score</p>
+                        <p id="manga-stats-meanscore"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Hours Read</p>
+                        <p id="manga-stats-hours"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Volumes Read</p>
+                        <p id="manga-stats-volumes"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Chapters Read</p>
+                        <p id="manga-stats-chapters"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Pages Read</p>
+                        <p id="manga-stats-pages"></p>
+                    </div>
                 </div>
-
-                <div class="anime-stats">
-                    <p>Anime Stats</p>
-                    <table id="anime-stats-table">
-                        <tr>
-                            <td>Mean score</td>
-                            <td id="anime-stats-meanscore"></td>
-                        </tr>
-                        <tr>
-                            <td>Hours Watched</td>
-                            <td id="anime-stats-hours"></td>
-                        </tr>
-                        <tr>
-                            <td>Episodes Watched</td>
-                            <td id="anime-stats-episodes"></td>
-                        </tr>
-                    </table>
-                    <p>Anime Status</p>
-                    <table id="anime-status-table">
-                        <tr>
-                            <td>Completed</td>
-                            <td id="anime-completed"></td>
-                        </tr>
-                        <tr>
-                            <td>Reading</td>
-                            <td id="anime-reading"></td>
-                        </tr>
-                        <tr>
-                            <td>On Hold</td>
-                            <td id="anime-onhold"></td>
-                        </tr>
-                        <tr>
-                            <td>Plan to watch</td>
-                            <td id="anime-plantowatch"></td>
-                        </tr>
-                        <tr>
-                            <td>Total entries</td>
-                            <td id="anime-total"></td>
-                        </tr>
-
-                        
-                    </table>
+                <div id="manga-status-table">
+                    <p id="title">Manga Status</p>
+                    <div class="tdata">
+                        <p id="dataname">Completed</p>
+                        <p id="manga-completed"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Reading</p>
+                        <p id="manga-reading"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">On Hold</p>
+                        <p id="manga-onhold"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Plan to read</p>
+                        <p id="manga-plantoread"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Total entries</p>
+                        <p id="manga-total"></p>
+                    </div>
+                </div>
+                <div id="anime-stats-table">
+                    <p id="title">Anime Stats</p>
+                    <div class="tdata">
+                        <p id="dataname">Mean score</p>
+                        <p id="anime-stats-meanscore"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Hours Watched</p>
+                        <p id="anime-stats-hours"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Episodes Watched</p>
+                        <p id="anime-stats-episodes"></p>
+                    </div>
+                </div>
+                <div id="anime-status-table">
+                    <p id="title">Anime Status</p>
+                    <div class="tdata">
+                        <p id="dataname">Completed</p>
+                        <p id="anime-completed"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Reading</p>
+                        <p id="anime-watching"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">On Hold</p>
+                        <p id="anime-onhold"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Plan to watch</p>
+                        <p id="anime-plantowatch"></p>
+                    </div>
+                    <div class="tdata">
+                        <p id="dataname">Total entries</p>
+                        <p id="anime-total"></p>
+                    </div>
                 </div>
 
             </div>
@@ -167,14 +156,22 @@
                          data["statistics"]["manga"]["volumes_read"],
                          data["statistics"]["manga"]["chapters_read"])
 
-        updateMangaStatus()
+        updateMangaStatus(data["statistics"]["manga"]["completed"],
+                          data["statistics"]["manga"]["reading"],
+                          data["statistics"]["manga"]["on_hold"],
+                          data["statistics"]["manga"]["plan_to_read"],
+                          data["statistics"]["manga"]["total_entries"])
 
         updateAnimeStats(data["statistics"]["anime"]["mean_score"],
                          data["statistics"]["anime"]["days_watched"],
                          data["statistics"]["anime"]["episodes_watched"])
+
+        updateAnimeStatus(data["statistics"]["anime"]["completed"],
+                          data["statistics"]["anime"]["watching"],
+                          data["statistics"]["anime"]["on_hold"],
+                          data["statistics"]["anime"]["plan_to_watch"],
+                          data["statistics"]["anime"]["total_entries"])
     }
-
-
 
     function updateProfilePicture(src){
         const navImage = document.getElementById("nav-pic")
@@ -232,8 +229,36 @@
 
     }
 
-    function updateMangaStatus(){
-        
+    function updateMangaStatus(completed,reading,onhold,plantoread,totalEntries){
+        const STATS_CONST = "manga-"
+
+        const completedNumber = document.getElementById(`${STATS_CONST}completed`)
+        const readingNumber = document.getElementById(`${STATS_CONST}reading`)
+        const onholdNumber = document.getElementById(`${STATS_CONST}onhold`)
+        const plantoreadNumber = document.getElementById(`${STATS_CONST}plantoread`)
+        const totalNumber = document.getElementById(`${STATS_CONST}total`)
+
+        completedNumber.innerHTML = completed
+        readingNumber.innerHTML = reading
+        onholdNumber.innerHTML = onhold
+        plantoreadNumber.innerHTML = plantoread
+        totalNumber.innerHTML = totalEntries
+    }
+
+    function updateAnimeStatus(completed,watching,onhold,plantowatch,totalEntries){
+        const STATS_CONST = "anime-"
+
+        const completedNumber = document.getElementById(`${STATS_CONST}completed`)
+        const watchingNumber = document.getElementById(`${STATS_CONST}watching`)
+        const onholdNumber = document.getElementById(`${STATS_CONST}onhold`)
+        const plantowatchNumber = document.getElementById(`${STATS_CONST}plantowatch`)
+        const totalNumber = document.getElementById(`${STATS_CONST}total`)
+
+        completedNumber.innerHTML = completed
+        watchingNumber.innerHTML = watching
+        onholdNumber.innerHTML = onhold
+        plantowatchNumber.innerHTML = plantowatch
+        totalNumber.innerHTML = totalEntries
     }
 </script>
 <script>
