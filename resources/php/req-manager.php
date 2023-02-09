@@ -5,7 +5,7 @@ include 'config.php';
 $user = $_GET["user"];
 
 if (!$user) {
-    $url = "https://api.myanimelist.net/v2/anime?q=one&limit=4";
+    $url = "https://api.myanimelist.net/v2/anime?q=one&limit=10";
     echo makeRequest($url, $CLIENT_ID);
     return;
 }

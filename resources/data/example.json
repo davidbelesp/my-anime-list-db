@@ -1,0 +1,397 @@
+{
+    "data": {
+        "mal_id": 13577420,
+        "username": "AkinaDb",
+        "url": "https://myanimelist.net/profile/AkinaDb",
+        "images": {
+            "jpg": {
+                "image_url": "https://cdn.myanimelist.net/images/userimages/13577420.jpg?t=1675962000"
+            },
+            "webp": {
+                "image_url": "https://cdn.myanimelist.net/images/userimages/13577420.webp?t=1675962000"
+            }
+        },
+        "last_online": "2023-02-09T17:50:29+00:00",
+        "gender": "Female",
+        "birthday": null,
+        "location": null,
+        "joined": "2021-08-23T00:00:00+00:00",
+        "statistics": {
+            "anime": {
+                "days_watched": 4.5,
+                "mean_score": 6.96,
+                "watching": 2,
+                "completed": 50,
+                "on_hold": 2,
+                "dropped": 0,
+                "plan_to_watch": 33,
+                "total_entries": 87,
+                "rewatched": 1,
+                "episodes_watched": 269
+            },
+            "manga": {
+                "days_read": 41.4,
+                "mean_score": 6.53,
+                "reading": 7,
+                "completed": 662,
+                "on_hold": 7,
+                "dropped": 2,
+                "plan_to_read": 156,
+                "total_entries": 834,
+                "reread": 5,
+                "chapters_read": 3339,
+                "volumes_read": 768
+            }
+        },
+        "favorites": {
+            "anime": [],
+            "manga": [
+                {
+                    "mal_id": 110737,
+                    "url": "https://myanimelist.net/manga/110737/Ijiranaide_Nagatoro-san",
+                    "images": {
+                        "jpg": {
+                            "image_url": "https://cdn.myanimelist.net/images/manga/1/268387.jpg?s=7464d946a0d6433df59012e30098e340",
+                            "small_image_url": "https://cdn.myanimelist.net/images/manga/1/268387t.jpg?s=7464d946a0d6433df59012e30098e340",
+                            "large_image_url": "https://cdn.myanimelist.net/images/manga/1/268387l.jpg?s=7464d946a0d6433df59012e30098e340"
+                        },
+                        "webp": {
+                            "image_url": "https://cdn.myanimelist.net/images/manga/1/268387.webp?s=7464d946a0d6433df59012e30098e340",
+                            "small_image_url": "https://cdn.myanimelist.net/images/manga/1/268387t.webp?s=7464d946a0d6433df59012e30098e340",
+                            "large_image_url": "https://cdn.myanimelist.net/images/manga/1/268387l.webp?s=7464d946a0d6433df59012e30098e340"
+                        }
+                    },
+                    "title": "Ijiranaide, Nagatoro-san",
+                    "type": "Manga",
+                    "start_year": 2017
+                },
+                {
+                    "mal_id": 119735,
+                    "url": "https://myanimelist.net/manga/119735/A_Perverts_Daily_Life",
+                    "images": {
+                        "jpg": {
+                            "image_url": "https://cdn.myanimelist.net/images/manga/3/259366.jpg?s=964454b9987bb76017a6f2b057b9a8cc",
+                            "small_image_url": "https://cdn.myanimelist.net/images/manga/3/259366t.jpg?s=964454b9987bb76017a6f2b057b9a8cc",
+                            "large_image_url": "https://cdn.myanimelist.net/images/manga/3/259366l.jpg?s=964454b9987bb76017a6f2b057b9a8cc"
+                        },
+                        "webp": {
+                            "image_url": "https://cdn.myanimelist.net/images/manga/3/259366.webp?s=964454b9987bb76017a6f2b057b9a8cc",
+                            "small_image_url": "https://cdn.myanimelist.net/images/manga/3/259366t.webp?s=964454b9987bb76017a6f2b057b9a8cc",
+                            "large_image_url": "https://cdn.myanimelist.net/images/manga/3/259366l.webp?s=964454b9987bb76017a6f2b057b9a8cc"
+                        }
+                    },
+                    "title": "A Pervert's Daily Life",
+                    "type": "Manhwa",
+                    "start_year": 2017
+                },
+                {
+                    "mal_id": 124921,
+                    "url": "https://myanimelist.net/manga/124921/Please_Freeze_Please",
+                    "images": {
+                        "jpg": {
+                            "image_url": "https://cdn.myanimelist.net/images/manga/2/246490.jpg?s=ab86e5b0e60fb0e060991141fe81f5d6",
+                            "small_image_url": "https://cdn.myanimelist.net/images/manga/2/246490t.jpg?s=ab86e5b0e60fb0e060991141fe81f5d6",
+                            "large_image_url": "https://cdn.myanimelist.net/images/manga/2/246490l.jpg?s=ab86e5b0e60fb0e060991141fe81f5d6"
+                        },
+                        "webp": {
+                            "image_url": "https://cdn.myanimelist.net/images/manga/2/246490.webp?s=ab86e5b0e60fb0e060991141fe81f5d6",
+                            "small_image_url": "https://cdn.myanimelist.net/images/manga/2/246490t.webp?s=ab86e5b0e60fb0e060991141fe81f5d6",
+                            "large_image_url": "https://cdn.myanimelist.net/images/manga/2/246490l.webp?s=ab86e5b0e60fb0e060991141fe81f5d6"
+                        }
+                    },
+                    "title": "Please! Freeze! Please!",
+                    "type": "Manga",
+                    "start_year": 2019
+                }
+            ],
+            "characters": [
+                {
+                    "mal_id": 11766,
+                    "url": "https://myanimelist.net/character/11766/Haru_Nonaka",
+                    "images": {
+                        "jpg": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/16/407515.jpg?s=d5b48f7404bde736ec6fad8fc1cb4355"
+                        },
+                        "webp": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/16/407515.webp?s=d5b48f7404bde736ec6fad8fc1cb4355",
+                            "small_image_url": "https://cdn.myanimelist.net/images/characters/16/407515t.webp?s=d5b48f7404bde736ec6fad8fc1cb4355"
+                        }
+                    },
+                    "name": "Nonaka, Haru"
+                },
+                {
+                    "mal_id": 152150,
+                    "url": "https://myanimelist.net/character/152150/Hideri_Kanzaki",
+                    "images": {
+                        "jpg": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/10/338153.jpg?s=3560ddc3fbab78ee5723da6246ad39e5"
+                        },
+                        "webp": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/10/338153.webp?s=3560ddc3fbab78ee5723da6246ad39e5",
+                            "small_image_url": "https://cdn.myanimelist.net/images/characters/10/338153t.webp?s=3560ddc3fbab78ee5723da6246ad39e5"
+                        }
+                    },
+                    "name": "Kanzaki, Hideri"
+                },
+                {
+                    "mal_id": 152632,
+                    "url": "https://myanimelist.net/character/152632/Najimi_Osana",
+                    "images": {
+                        "jpg": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/4/450832.jpg?s=b9c864cf7f639606929b53d0c38d9c04"
+                        },
+                        "webp": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/4/450832.webp?s=b9c864cf7f639606929b53d0c38d9c04",
+                            "small_image_url": "https://cdn.myanimelist.net/images/characters/4/450832t.webp?s=b9c864cf7f639606929b53d0c38d9c04"
+                        }
+                    },
+                    "name": "Osana, Najimi"
+                },
+                {
+                    "mal_id": 136727,
+                    "url": "https://myanimelist.net/character/136727/Tooru",
+                    "images": {
+                        "jpg": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/11/322676.jpg?s=2144ab9323168a2c9539c4adb856f5d3"
+                        },
+                        "webp": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/11/322676.webp?s=2144ab9323168a2c9539c4adb856f5d3",
+                            "small_image_url": "https://cdn.myanimelist.net/images/characters/11/322676t.webp?s=2144ab9323168a2c9539c4adb856f5d3"
+                        }
+                    },
+                    "name": "Tooru"
+                },
+                {
+                    "mal_id": 140810,
+                    "url": "https://myanimelist.net/character/140810/Chika_Fujiwara",
+                    "images": {
+                        "jpg": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/2/371542.jpg?s=1967640ebb0a8f7da3ad544badd08a49"
+                        },
+                        "webp": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/2/371542.webp?s=1967640ebb0a8f7da3ad544badd08a49",
+                            "small_image_url": "https://cdn.myanimelist.net/images/characters/2/371542t.webp?s=1967640ebb0a8f7da3ad544badd08a49"
+                        }
+                    },
+                    "name": "Fujiwara, Chika"
+                },
+                {
+                    "mal_id": 157797,
+                    "url": "https://myanimelist.net/character/157797/Hayase_Nagatoro",
+                    "images": {
+                        "jpg": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/11/439273.jpg?s=588b45962f4889a6b6edcca0cc5b7c78"
+                        },
+                        "webp": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/11/439273.webp?s=588b45962f4889a6b6edcca0cc5b7c78",
+                            "small_image_url": "https://cdn.myanimelist.net/images/characters/11/439273t.webp?s=588b45962f4889a6b6edcca0cc5b7c78"
+                        }
+                    },
+                    "name": "Nagatoro, Hayase"
+                },
+                {
+                    "mal_id": 175269,
+                    "url": "https://myanimelist.net/character/175269/Ruka_Sarashina",
+                    "images": {
+                        "jpg": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/11/409385.jpg?s=f6a149dc9631a74b812534d6942ccb23"
+                        },
+                        "webp": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/11/409385.webp?s=f6a149dc9631a74b812534d6942ccb23",
+                            "small_image_url": "https://cdn.myanimelist.net/images/characters/11/409385t.webp?s=f6a149dc9631a74b812534d6942ccb23"
+                        }
+                    },
+                    "name": "Sarashina, Ruka"
+                },
+                {
+                    "mal_id": 171851,
+                    "url": "https://myanimelist.net/character/171851/Sumi_Sakurasawa",
+                    "images": {
+                        "jpg": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/9/484263.jpg?s=d493e503b9879219ca19bb12db9ae90d"
+                        },
+                        "webp": {
+                            "image_url": "https://cdn.myanimelist.net/images/characters/9/484263.webp?s=d493e503b9879219ca19bb12db9ae90d",
+                            "small_image_url": "https://cdn.myanimelist.net/images/characters/9/484263t.webp?s=d493e503b9879219ca19bb12db9ae90d"
+                        }
+                    },
+                    "name": "Sakurasawa, Sumi"
+                }
+            ],
+            "people": []
+        },
+        "updates": {
+            "anime": [
+                {
+                    "entry": {
+                        "mal_id": 51678,
+                        "url": "https://myanimelist.net/anime/51678/Oniichan_wa_Oshimai",
+                        "images": {
+                            "jpg": {
+                                "image_url": "https://cdn.myanimelist.net/images/anime/1058/131632.jpg?s=9af590ef8bc6c4acbdc39809b9faf3e7",
+                                "small_image_url": "https://cdn.myanimelist.net/images/anime/1058/131632t.jpg?s=9af590ef8bc6c4acbdc39809b9faf3e7",
+                                "large_image_url": "https://cdn.myanimelist.net/images/anime/1058/131632l.jpg?s=9af590ef8bc6c4acbdc39809b9faf3e7"
+                            },
+                            "webp": {
+                                "image_url": "https://cdn.myanimelist.net/images/anime/1058/131632.webp?s=9af590ef8bc6c4acbdc39809b9faf3e7",
+                                "small_image_url": "https://cdn.myanimelist.net/images/anime/1058/131632t.webp?s=9af590ef8bc6c4acbdc39809b9faf3e7",
+                                "large_image_url": "https://cdn.myanimelist.net/images/anime/1058/131632l.webp?s=9af590ef8bc6c4acbdc39809b9faf3e7"
+                            }
+                        },
+                        "title": "Oniichan wa Oshimai!"
+                    },
+                    "score": 0,
+                    "status": "Plan to Watch",
+                    "episodes_seen": null,
+                    "episodes_total": null,
+                    "date": "2023-01-29T22:29:00+00:00"
+                },
+                {
+                    "entry": {
+                        "mal_id": 50634,
+                        "url": "https://myanimelist.net/anime/50634/Love_Me__Kaede_to_Suzu_The_Animation",
+                        "images": {
+                            "jpg": {
+                                "image_url": "https://cdn.myanimelist.net/images/anime/1881/120300.jpg?s=41a70ab032f7a0600797b2e370f93f8d",
+                                "small_image_url": "https://cdn.myanimelist.net/images/anime/1881/120300t.jpg?s=41a70ab032f7a0600797b2e370f93f8d",
+                                "large_image_url": "https://cdn.myanimelist.net/images/anime/1881/120300l.jpg?s=41a70ab032f7a0600797b2e370f93f8d"
+                            },
+                            "webp": {
+                                "image_url": "https://cdn.myanimelist.net/images/anime/1881/120300.webp?s=41a70ab032f7a0600797b2e370f93f8d",
+                                "small_image_url": "https://cdn.myanimelist.net/images/anime/1881/120300t.webp?s=41a70ab032f7a0600797b2e370f93f8d",
+                                "large_image_url": "https://cdn.myanimelist.net/images/anime/1881/120300l.webp?s=41a70ab032f7a0600797b2e370f93f8d"
+                            }
+                        },
+                        "title": "Love Me: Kaede to Suzu The Animation"
+                    },
+                    "score": 8,
+                    "status": "Completed",
+                    "episodes_seen": 2,
+                    "episodes_total": 2,
+                    "date": "2023-01-21T01:45:00+00:00"
+                },
+                {
+                    "entry": {
+                        "mal_id": 17157,
+                        "url": "https://myanimelist.net/anime/17157/Nozoki_Ana",
+                        "images": {
+                            "jpg": {
+                                "image_url": "https://cdn.myanimelist.net/images/anime/1393/116601.jpg?s=6f37a15bdc98cb2ec5969a3ce428c118",
+                                "small_image_url": "https://cdn.myanimelist.net/images/anime/1393/116601t.jpg?s=6f37a15bdc98cb2ec5969a3ce428c118",
+                                "large_image_url": "https://cdn.myanimelist.net/images/anime/1393/116601l.jpg?s=6f37a15bdc98cb2ec5969a3ce428c118"
+                            },
+                            "webp": {
+                                "image_url": "https://cdn.myanimelist.net/images/anime/1393/116601.webp?s=6f37a15bdc98cb2ec5969a3ce428c118",
+                                "small_image_url": "https://cdn.myanimelist.net/images/anime/1393/116601t.webp?s=6f37a15bdc98cb2ec5969a3ce428c118",
+                                "large_image_url": "https://cdn.myanimelist.net/images/anime/1393/116601l.webp?s=6f37a15bdc98cb2ec5969a3ce428c118"
+                            }
+                        },
+                        "title": "Nozoki Ana"
+                    },
+                    "score": 7,
+                    "status": "Completed",
+                    "episodes_seen": 1,
+                    "episodes_total": 1,
+                    "date": "2023-01-15T11:41:00+00:00"
+                }
+            ],
+            "manga": [
+                {
+                    "entry": {
+                        "mal_id": 29483,
+                        "url": "https://myanimelist.net/manga/29483/Midara_na_Haha__Shishunki_na_Boku",
+                        "images": {
+                            "jpg": {
+                                "image_url": "https://cdn.myanimelist.net/images/manga/1/160027.jpg?s=faa6958a95612a90b48f98c7133d27bd",
+                                "small_image_url": "https://cdn.myanimelist.net/images/manga/1/160027t.jpg?s=faa6958a95612a90b48f98c7133d27bd",
+                                "large_image_url": "https://cdn.myanimelist.net/images/manga/1/160027l.jpg?s=faa6958a95612a90b48f98c7133d27bd"
+                            },
+                            "webp": {
+                                "image_url": "https://cdn.myanimelist.net/images/manga/1/160027.webp?s=faa6958a95612a90b48f98c7133d27bd",
+                                "small_image_url": "https://cdn.myanimelist.net/images/manga/1/160027t.webp?s=faa6958a95612a90b48f98c7133d27bd",
+                                "large_image_url": "https://cdn.myanimelist.net/images/manga/1/160027l.webp?s=faa6958a95612a90b48f98c7133d27bd"
+                            }
+                        },
+                        "title": "Midara na Haha: Shishunki na Boku"
+                    },
+                    "score": 8,
+                    "status": "Completed",
+                    "chapters_read": 9,
+                    "chapters_total": 9,
+                    "date": "2023-02-05T06:11:00+00:00"
+                },
+                {
+                    "entry": {
+                        "mal_id": 134413,
+                        "url": "https://myanimelist.net/manga/134413/Chiisakute_Shiawase♥",
+                        "images": {
+                            "jpg": {
+                                "image_url": "https://cdn.myanimelist.net/images/manga/2/265901.jpg?s=3ce5f58b8bcf8614e916174453f5086c",
+                                "small_image_url": "https://cdn.myanimelist.net/images/manga/2/265901t.jpg?s=3ce5f58b8bcf8614e916174453f5086c",
+                                "large_image_url": "https://cdn.myanimelist.net/images/manga/2/265901l.jpg?s=3ce5f58b8bcf8614e916174453f5086c"
+                            },
+                            "webp": {
+                                "image_url": "https://cdn.myanimelist.net/images/manga/2/265901.webp?s=3ce5f58b8bcf8614e916174453f5086c",
+                                "small_image_url": "https://cdn.myanimelist.net/images/manga/2/265901t.webp?s=3ce5f58b8bcf8614e916174453f5086c",
+                                "large_image_url": "https://cdn.myanimelist.net/images/manga/2/265901l.webp?s=3ce5f58b8bcf8614e916174453f5086c"
+                            }
+                        },
+                        "title": "Chiisakute Shiawase♥"
+                    },
+                    "score": 6,
+                    "status": "Completed",
+                    "chapters_read": 8,
+                    "chapters_total": 8,
+                    "date": "2023-02-01T00:20:00+00:00"
+                },
+                {
+                    "entry": {
+                        "mal_id": 142385,
+                        "url": "https://myanimelist.net/manga/142385/Loli_One_Yuri_Ecchi__Loli_ga_Oneesan_wo_Semetemo_Ii_yo_ne",
+                        "images": {
+                            "jpg": {
+                                "image_url": "https://cdn.myanimelist.net/images/manga/3/264664.jpg?s=3605c1442a9e3f6a717a2d49221104d7",
+                                "small_image_url": "https://cdn.myanimelist.net/images/manga/3/264664t.jpg?s=3605c1442a9e3f6a717a2d49221104d7",
+                                "large_image_url": "https://cdn.myanimelist.net/images/manga/3/264664l.jpg?s=3605c1442a9e3f6a717a2d49221104d7"
+                            },
+                            "webp": {
+                                "image_url": "https://cdn.myanimelist.net/images/manga/3/264664.webp?s=3605c1442a9e3f6a717a2d49221104d7",
+                                "small_image_url": "https://cdn.myanimelist.net/images/manga/3/264664t.webp?s=3605c1442a9e3f6a717a2d49221104d7",
+                                "large_image_url": "https://cdn.myanimelist.net/images/manga/3/264664l.webp?s=3605c1442a9e3f6a717a2d49221104d7"
+                            }
+                        },
+                        "title": "Loli One Yuri Ecchi: Loli ga Oneesan wo Semetemo Ii yo ne!"
+                    },
+                    "score": 6,
+                    "status": "Completed",
+                    "chapters_read": 10,
+                    "chapters_total": 10,
+                    "date": "2023-02-01T00:12:00+00:00"
+                }
+            ]
+        },
+        "about": "<b>Ah, I see you're a man of culture as well.</b><br>\r\n<br>\r\n<a href=\"https://bit.ly/3to7d1T\" target=\"_blank\" rel=\"nofollow noopener noreferrer\"> My (Not approved) Manga list </a>",
+        "external": [
+            {
+                "name": "Recent Anime",
+                "url": "https://myanimelist.net/rss.php?type=rw&u=AkinaDb"
+            },
+            {
+                "name": "Recent Anime by Episode",
+                "url": "https://myanimelist.net/rss.php?type=rwe&u=AkinaDb"
+            },
+            {
+                "name": "Recent Manga",
+                "url": "https://myanimelist.net/rss.php?type=rm&u=AkinaDb"
+            },
+            {
+                "name": "Recent Manga by Chapter",
+                "url": "https://myanimelist.net/rss.php?type=rrm&u=AkinaDb"
+            },
+            {
+                "name": "Blog Feed",
+                "url": "https://myanimelist.net/rss.php?type=blog&u=AkinaDb"
+            }
+        ]
+    }
+}
