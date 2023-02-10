@@ -168,7 +168,7 @@ table.user-info td{
 
     justify-content: center;
 
-    height: 190px;
+    height: 16vw;
     min-width: 10vw;
     max-width: 10vw;
 }
@@ -213,6 +213,7 @@ table.user-info td{
 
 .anime-list{
     grid-column: 1/5;
+    height: fit-content;
 }
 
 
