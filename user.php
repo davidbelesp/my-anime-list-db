@@ -19,7 +19,7 @@
         <div class="wrapper">
 
             <div class="profile box">
-                <p id="name"></p>
+                <p id="name">-</p>
                 <div class="profile-pic">
                     <img id="profile-pic" alt="user-picture">
                 </div>
@@ -27,15 +27,15 @@
                     <div class="user-info">
                         <div class="tdata">
                             <p>Gender</p>
-                            <p id="gender"></p>
+                            <p id="gender">-</p>
                         </div>
                         <div class="tdata">
                             <p>Joined</p>
-                            <p id="joined"></p>
+                            <p id="joined">-</p>
                         </div>
                         <div class="tdata">
                             <p>Location</p>
-                            <p id="location"></p>
+                            <p id="location">-</p>
                         </div>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
             <div class="stats box"> 
 
                 <div id="manga-stats-table">
-                    <p id="title">Manga Stats</p>
+                    <p id="tableTitle">Manga Stats</p>
                     <div class="tdata">
                         <p id="dataname">Mean score</p>
                         <p id="manga-stats-meanscore"></p>
@@ -67,7 +67,7 @@
                     </div>
                 </div>
                 <div id="manga-status-table">
-                    <p id="title">Manga Status</p>
+                    <p id="tableTitle">Manga Status</p>
                     <div class="tdata">
                         <p id="dataname">Completed</p>
                         <p id="manga-completed"></p>
@@ -90,7 +90,7 @@
                     </div>
                 </div>
                 <div id="anime-stats-table">
-                    <p id="title">Anime Stats</p>
+                    <p id="tableTitle">Anime Stats</p>
                     <div class="tdata">
                         <p id="dataname">Mean score</p>
                         <p id="anime-stats-meanscore"></p>
@@ -105,7 +105,7 @@
                     </div>
                 </div>
                 <div id="anime-status-table">
-                    <p id="title">Anime Status</p>
+                    <p id="tableTitle">Anime Status</p>
                     <div class="tdata">
                         <p id="dataname">Completed</p>
                         <p id="anime-completed"></p>
@@ -129,12 +129,8 @@
                 </div>
 
             </div>
-            <div class="manga-list box">
-                MANGA LIST
-            </div>
-            <div class="anime-list box">
-                ANIME LIST
-            </div>
+            <div class="manga-list box"></div>
+            <div class="anime-list box"></div>
         </div>
     </div>
     
@@ -145,32 +141,42 @@
         const rawdata = await getUserInfo(username)
         const data = rawdata["data"]
 
+        data["manga-list"] = await getList("manga",username)
+        data["anime-list"] = await getList("anime",username)
+
         updateProfilePicture(data["images"]["webp"]["image_url"])
-        updateProfileName(data["username"])
+        updateProfileName(data["username"]) 
         updateProfileTable(data["gender"],
                            data["joined"],  
                            data["location"])
 
-        updateMangaStats(data["statistics"]["manga"]["mean_score"],
-                         data["statistics"]["manga"]["days_read"],
-                         data["statistics"]["manga"]["volumes_read"],
-                         data["statistics"]["manga"]["chapters_read"])
+        mangaStats = data["statistics"]["manga"];
+        animeStats = data["statistics"]["anime"]
 
-        updateMangaStatus(data["statistics"]["manga"]["completed"],
-                          data["statistics"]["manga"]["reading"],
-                          data["statistics"]["manga"]["on_hold"],
-                          data["statistics"]["manga"]["plan_to_read"],
-                          data["statistics"]["manga"]["total_entries"])
+        updateMangaStats(mangaStats["mean_score"],
+                         mangaStats["days_read"],
+                         mangaStats["volumes_read"],
+                         mangaStats["chapters_read"])
 
-        updateAnimeStats(data["statistics"]["anime"]["mean_score"],
-                         data["statistics"]["anime"]["days_watched"],
-                         data["statistics"]["anime"]["episodes_watched"])
+        updateMangaStatus(mangaStats["completed"],
+                          mangaStats["reading"],
+                          mangaStats["on_hold"],
+                          mangaStats["plan_to_read"],
+                          mangaStats["total_entries"])
 
-        updateAnimeStatus(data["statistics"]["anime"]["completed"],
-                          data["statistics"]["anime"]["watching"],
-                          data["statistics"]["anime"]["on_hold"],
-                          data["statistics"]["anime"]["plan_to_watch"],
-                          data["statistics"]["anime"]["total_entries"])
+        updateAnimeStats(animeStats["mean_score"],
+                         animeStats["days_watched"],
+                         animeStats["episodes_watched"])
+
+        updateAnimeStatus(animeStats["completed"],
+                          animeStats["watching"],
+                          animeStats["on_hold"],
+                          animeStats["plan_to_watch"],
+                          animeStats["total_entries"])
+
+        updateList("manga",data["manga-list"])
+        updateList("anime",data["anime-list"])
+
     }
 
     function updateProfilePicture(src){
@@ -260,8 +266,33 @@
         plantowatchNumber.innerHTML = plantowatch
         totalNumber.innerHTML = totalEntries
     }
+
+    function updateList(type, list){
+        const parentDiv = document.querySelector(`.${type}-list`)
+        
+        
+        Object.keys(list).forEach((key)=>{
+            const image = list[key]["node"]["main_picture"]["medium"]
+
+            const cardDiv = document.createElement("div")
+            cardDiv.classList.add("card")
+            cardDiv.style = `--image:url(${image})`
+
+            const cardInfo = document.createElement("div")
+            cardInfo.classList.add("cardInfo")
+
+            const cardTitle = document.createElement("p")
+            cardTitle.setAttribute("id", "cardTitle")
+            cardTitle.innerHTML = list[key]["node"]["title"]
+
+            cardInfo.appendChild(cardTitle)
+            cardDiv.appendChild(cardInfo)
+            parentDiv.appendChild(cardDiv)
+        })
+    }   
+
 </script>
 <script>
-    setTimeout(() => {updatePage("akinadb")}, 0);
+    setTimeout(() => {updatePage("Maxine")}, 0);
 </script>
 </html>

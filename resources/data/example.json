@@ -392,6 +392,210 @@
                 "name": "Blog Feed",
                 "url": "https://myanimelist.net/rss.php?type=blog&u=AkinaDb"
             }
+        ],
+        "manga-list": [
+            {
+                "node": {
+                    "id": 95206,
+                    "title": "Amano Megumi wa Sukidarake!",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/1/188835.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/1/188835l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 116766,
+                    "title": "Hige wo Soru. Soshite Joshikousei wo Hirou.",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/1/219340.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/1/219340l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 110737,
+                    "title": "Ijiranaide, Nagatoro-san",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/1/268387.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/1/268387l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 92456,
+                    "title": "Iroenose.",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/1/163852.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/1/163852l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 109234,
+                    "title": "Jahy-sama wa Kujikenai!",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/2/206958.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/2/206958l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 90125,
+                    "title": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/3/188896.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/3/188896l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 124940,
+                    "title": "Kanojo mo Kanojo",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/1/231307.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/1/231307l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 128534,
+                    "title": "Kanojo, Hitomishirimasu",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/3/235003.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/3/235003l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 108407,
+                    "title": "Kanojo, Okarishimasu",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/2/270155.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/2/270155l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 129184,
+                    "title": "Kanojo, Okarishimasu: Koushiki Anthology Comic",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/1/239078.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/1/239078l.jpg"
+                    }
+                }
+            }
+        ],
+        "anime-list": [
+            {
+                "node": {
+                    "id": 36840,
+                    "title": "25-sai no Joshikousei",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/12/89091.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/12/89091l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 38101,
+                    "title": "5-toubun no Hanayome",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1819/97947.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1819/97947l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 48553,
+                    "title": "Akebi-chan no Sailor-fuku",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1820/120520.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1820/120520l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 34618,
+                    "title": "Blend S",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/6/88286.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/6/88286l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 28999,
+                    "title": "Charlotte",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/12/74683.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/12/74683l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 14741,
+                    "title": "Chuunibyou demo Koi ga Shitai!",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/12/46931.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/12/46931l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 39175,
+                    "title": "Cider no You ni Kotoba ga Wakiagaru",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1952/116031.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1952/116031l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 8425,
+                    "title": "Gosick",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/11/27906.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/11/27906l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 40938,
+                    "title": "Hige wo Soru. Soshite Joshikousei wo Hirou.",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1146/113477.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1146/113477l.jpg"
+                    }
+                }
+            },
+            {
+                "node": {
+                    "id": 42361,
+                    "title": "Ijiranaide, Nagatoro-san",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1900/110097.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1900/110097l.jpg"
+                    }
+                }
+            }
         ]
     }
 }
