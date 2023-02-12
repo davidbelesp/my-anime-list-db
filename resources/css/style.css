@@ -200,8 +200,10 @@ table.user-info td{
     flex-direction: row ;
     gap: 10px;
     padding: 10px;
-    overflow-x: scroll;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
 }
+
 
 /* Manga-list */
 
@@ -227,7 +229,7 @@ table.user-info td{
 /* SCROLLBAR */
 
 ::-webkit-scrollbar {
-    width: 15px;
+    width: 12px;
   }
   
   ::-webkit-scrollbar-track {
