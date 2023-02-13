@@ -14,7 +14,7 @@
         <div class="nav-bar">
             <img id="nav-pic" alt="user-picture">
             <ul>
-                <li><a href=""">Log out</a></li>
+                <li><a href="./index.html">Log out</a></li>
             </ul>
         </div>
         <div class="wrapper">
@@ -135,10 +135,12 @@
         </div>
     </div>
     
-    <?php?>
+    
 </body>
 <script>
-    setTimeout(() => {updatePage("Maxine")}, 0);
     setTimeout(() => {sideScroll([document.querySelector(".manga-list"),document.querySelector(".anime-list")])}, 0);
 </script>
+<?php 
+echo "<script>setTimeout(() => {updatePage('".$_GET["user"]."')}, 0);</script>"
+?>
 </html>
