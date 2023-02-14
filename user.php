@@ -7,7 +7,8 @@
     <link rel="stylesheet" href="./resources/css/style.css">
     <script src="./resources/javascript/main.js"></script>
     <script src="./resources/javascript/functions.js"></script>
-    <title>Document</title>
+    <link rel="icon" type="image/x-icon" href="./resources/images/MyAnimeList_Logo_black.png">
+    <?php echo "<title>".$_GET["user"]."'s Profile</title>" ?>
 </head>
 <body>
     <div class="content">
@@ -130,15 +131,25 @@
                 </div>
 
             </div>
-            <div class="manga-list box"></div>
-            <div class="anime-list box"></div>
+            <div class="m-list-div box">
+                <div id="list-link">
+                    <a href="./list.php">Manga List</a>
+                </div>
+                <div class="manga-list"></div>
+            </div>
+            <div class="a-list-div box">
+                <div id="list-link">
+                    <a href="./list.php">Anime List</a>
+                </div>
+                <div class="anime-list"></div>
+            </div>
         </div>
     </div>
     
     
 </body>
 <script>
-    setTimeout(() => {sideScroll([document.querySelector(".manga-list"),document.querySelector(".anime-list")])}, 0);
+    setTimeout(() => {sideScroll([document.querySelector(".anime-list"),document.querySelector(".manga-list")])}, 0);
 </script>
 <?php 
 echo "<script>setTimeout(() => {updatePage('".$_GET["user"]."')}, 0);</script>"
