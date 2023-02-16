@@ -167,3 +167,8 @@ function updateList(type, list){
         parentDiv.appendChild(cardDiv)
     })
 }   
+
+function logout(){
+    localStorage.removeItem("username")
+    location.href = "./index.html"
+}

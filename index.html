@@ -21,8 +21,12 @@
     </div>
 </body>
 <script>
+    username = localStorage.getItem("username")
+    if (username) location.href = `./user.php?user=${username}`
+
     document.getElementById("send").addEventListener("click",()=>{
         username = document.getElementById("username").value
+        localStorage.setItem("username", username)
         location.href = `./user.php?user=${username}`
     })
 </script>

@@ -15,7 +15,7 @@
         <div class="nav-bar">
             <img id="nav-pic" alt="user-picture">
             <ul>
-                <li><a href="./index.html">Log out</a></li>
+                <li><a onclick="logout()">Log out</a></li>
             </ul>
         </div>
         <div class="wrapper">

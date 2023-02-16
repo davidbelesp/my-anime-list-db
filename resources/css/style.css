@@ -16,6 +16,10 @@ body {
     padding: 0;
 }
 
+a{
+    cursor: pointer;
+}
+
 /* NAVIGATION BAR */
 
 .nav-bar {
