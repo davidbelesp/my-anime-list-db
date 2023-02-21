@@ -1,18 +1,20 @@
- async function getList(type, username){
+ async function getList(type, username, offset = 0){
     if (!username || !type) return
 
     let params = "";
 
-    username ? params += `user=${username}` : "";
+    params += `user=${username}`;
     type == "anime" ? params += "&type=anime" : 
     type == "manga" ? params += "&type=manga" : 
-    console.log("No valid type defined")
+    console.log("No valid type defined on getting list")
+
+    offset ? params += `&offset=${offset}` : ""
 
     const URL = `./resources/php/req-manager.php?${params}`
-
+    
     const raw = await fetch(URL);
     const data = await raw.json();
-
+    
     return data;
 }
 

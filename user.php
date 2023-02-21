@@ -133,13 +133,13 @@
             </div>
             <div class="m-list-div box">
                 <div id="list-link">
-                    <a href="./list.php">Manga List</a>
+                    <?php echo "<a href='./list.php?user=".$_GET["user"]."&type=manga'>Manga List</a>" ?>
                 </div>
                 <div class="manga-list"></div>
             </div>
             <div class="a-list-div box">
                 <div id="list-link">
-                    <a href="./list.php">Anime List</a>
+                    <?php echo "<a href='./list.php?user=".$_GET["user"]."&type=anime'>Anime List</a>" ?>
                 </div>
                 <div class="anime-list"></div>
             </div>

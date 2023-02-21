@@ -402,6 +402,15 @@
                         "medium": "https://api-cdn.myanimelist.net/images/manga/1/188835.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/manga/1/188835l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "reading",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 21,
+                    "score": 0,
+                    "updated_at": "2022-12-28T15:27:44+00:00",
+                    "start_date": "2022-09-21"
                 }
             },
             {
@@ -412,6 +421,14 @@
                         "medium": "https://api-cdn.myanimelist.net/images/manga/1/219340.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/manga/1/219340l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "on_hold",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 36,
+                    "score": 9,
+                    "updated_at": "2022-02-16T21:51:25+00:00"
                 }
             },
             {
@@ -422,6 +439,15 @@
                         "medium": "https://api-cdn.myanimelist.net/images/manga/1/268387.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/manga/1/268387l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 102,
+                    "score": 8,
+                    "updated_at": "2022-08-02T20:38:55+00:00",
+                    "finish_date": "2022-03-08"
                 }
             },
             {
@@ -432,6 +458,14 @@
                         "medium": "https://api-cdn.myanimelist.net/images/manga/1/163852.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/manga/1/163852l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "is_rereading": false,
+                    "num_volumes_read": 1,
+                    "num_chapters_read": 1,
+                    "score": 7,
+                    "updated_at": "2022-08-02T20:39:45+00:00"
                 }
             },
             {
@@ -442,6 +476,14 @@
                         "medium": "https://api-cdn.myanimelist.net/images/manga/2/206958.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/manga/2/206958l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "dropped",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 1,
+                    "score": 0,
+                    "updated_at": "2021-12-26T20:35:04+00:00"
                 }
             },
             {
@@ -452,6 +494,14 @@
                         "medium": "https://api-cdn.myanimelist.net/images/manga/3/188896.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/manga/3/188896l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "on_hold",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 37,
+                    "score": 9,
+                    "updated_at": "2022-02-10T23:41:58+00:00"
                 }
             },
             {
@@ -462,6 +512,15 @@
                         "medium": "https://api-cdn.myanimelist.net/images/manga/1/231307.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/manga/1/231307l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "dropped",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 19,
+                    "score": 0,
+                    "updated_at": "2022-01-29T13:41:03+00:00",
+                    "start_date": "2022-01-23"
                 }
             },
             {
@@ -472,6 +531,15 @@
                         "medium": "https://api-cdn.myanimelist.net/images/manga/3/235003.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/manga/3/235003l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "on_hold",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 18,
+                    "score": 0,
+                    "updated_at": "2022-04-11T12:14:47+00:00",
+                    "start_date": "2022-03-12"
                 }
             },
             {
@@ -482,6 +550,16 @@
                         "medium": "https://api-cdn.myanimelist.net/images/manga/2/270155.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/manga/2/270155l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "reading",
+                    "is_rereading": false,
+                    "num_volumes_read": 28,
+                    "num_chapters_read": 264,
+                    "score": 8,
+                    "updated_at": "2022-12-28T15:35:09+00:00",
+                    "start_date": "2022-03-01",
+                    "finish_date": "2022-03-01"
                 }
             },
             {
@@ -492,6 +570,199 @@
                         "medium": "https://api-cdn.myanimelist.net/images/manga/1/239078.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/manga/1/239078l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "is_rereading": false,
+                    "num_volumes_read": 1,
+                    "num_chapters_read": 24,
+                    "score": 7,
+                    "updated_at": "2022-08-02T20:41:40+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 108187,
+                    "title": "Karakai Jouzu no (Moto) Takagi-san",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/2/204600.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/2/204600l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "on_hold",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 25,
+                    "score": 0,
+                    "updated_at": "2022-07-05T15:01:06+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 78537,
+                    "title": "Karakai Jouzu no Takagi-san",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/3/136045.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/3/136045l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 157,
+                    "score": 7,
+                    "updated_at": "2022-08-02T20:41:44+00:00",
+                    "start_date": "2022-03-09",
+                    "finish_date": "2022-03-09"
+                }
+            },
+            {
+                "node": {
+                    "id": 48621,
+                    "title": "Koe no Katachi",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/5/86737.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/5/86737l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "plan_to_read",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 0,
+                    "score": 0,
+                    "updated_at": "2022-01-19T17:25:48+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 99007,
+                    "title": "Komi-san wa, Comyushou desu.",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/3/188962.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/3/188962l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "reading",
+                    "is_rereading": false,
+                    "num_volumes_read": 23,
+                    "num_chapters_read": 333,
+                    "score": 8,
+                    "updated_at": "2022-10-17T16:09:36+00:00",
+                    "start_date": "2021-11-15"
+                }
+            },
+            {
+                "node": {
+                    "id": 122448,
+                    "title": "Kubo-san wa Mob wo Yurusanai",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/3/227284.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/3/227284l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "plan_to_read",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 0,
+                    "score": 0,
+                    "updated_at": "2022-03-07T13:31:46+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 116790,
+                    "title": "Mieruko-chan",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/3/217799.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/3/217799l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "plan_to_read",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 0,
+                    "score": 0,
+                    "updated_at": "2022-03-17T19:48:18+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 113938,
+                    "title": "Mijuku na Futari de Gozaimasu ga",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/2/213271.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/2/213271l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "reading",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 27,
+                    "score": 0,
+                    "updated_at": "2022-07-21T12:11:01+00:00",
+                    "start_date": "2022-07-05"
+                }
+            },
+            {
+                "node": {
+                    "id": 110742,
+                    "title": "Otome Danshi ni Koisuru Otome",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/1/211094.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/1/211094l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "plan_to_read",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 0,
+                    "score": 0,
+                    "updated_at": "2022-10-15T10:39:26+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 25297,
+                    "title": "Prison School",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/1/270150.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/1/270150l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "plan_to_read",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 0,
+                    "score": 0,
+                    "updated_at": "2022-02-21T08:04:13+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 110029,
+                    "title": "Shinigami Bocchan to Kuro Maid",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/manga/2/205563.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/manga/2/205563l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "on_hold",
+                    "is_rereading": false,
+                    "num_volumes_read": 0,
+                    "num_chapters_read": 29,
+                    "score": 0,
+                    "updated_at": "2022-02-19T12:42:12+00:00",
+                    "start_date": "2021-11-21"
                 }
             }
         ],
@@ -504,6 +775,13 @@
                         "medium": "https://api-cdn.myanimelist.net/images/anime/12/89091.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/anime/12/89091l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "plan_to_watch",
+                    "score": 0,
+                    "num_episodes_watched": 0,
+                    "is_rewatching": false,
+                    "updated_at": "2022-07-23T21:13:13+00:00"
                 }
             },
             {
@@ -514,6 +792,14 @@
                         "medium": "https://api-cdn.myanimelist.net/images/anime/1819/97947.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/anime/1819/97947l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "score": 7,
+                    "num_episodes_watched": 12,
+                    "is_rewatching": false,
+                    "updated_at": "2022-05-04T14:28:41+00:00",
+                    "finish_date": "2022-05-04"
                 }
             },
             {
@@ -524,6 +810,13 @@
                         "medium": "https://api-cdn.myanimelist.net/images/anime/1820/120520.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/anime/1820/120520l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "plan_to_watch",
+                    "score": 0,
+                    "num_episodes_watched": 0,
+                    "is_rewatching": false,
+                    "updated_at": "2022-06-29T14:42:24+00:00"
                 }
             },
             {
@@ -534,6 +827,15 @@
                         "medium": "https://api-cdn.myanimelist.net/images/anime/6/88286.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/anime/6/88286l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "score": 7,
+                    "num_episodes_watched": 12,
+                    "is_rewatching": false,
+                    "updated_at": "2021-08-24T21:25:52+00:00",
+                    "start_date": "2021-08-24",
+                    "finish_date": "2021-08-24"
                 }
             },
             {
@@ -544,6 +846,13 @@
                         "medium": "https://api-cdn.myanimelist.net/images/anime/12/74683.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/anime/12/74683l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "plan_to_watch",
+                    "score": 0,
+                    "num_episodes_watched": 0,
+                    "is_rewatching": false,
+                    "updated_at": "2021-08-24T16:53:42+00:00"
                 }
             },
             {
@@ -554,6 +863,13 @@
                         "medium": "https://api-cdn.myanimelist.net/images/anime/12/46931.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/anime/12/46931l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "plan_to_watch",
+                    "score": 0,
+                    "num_episodes_watched": 0,
+                    "is_rewatching": false,
+                    "updated_at": "2021-08-24T16:52:09+00:00"
                 }
             },
             {
@@ -564,6 +880,15 @@
                         "medium": "https://api-cdn.myanimelist.net/images/anime/1952/116031.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/anime/1952/116031l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "score": 7,
+                    "num_episodes_watched": 1,
+                    "is_rewatching": false,
+                    "updated_at": "2021-08-24T21:21:29+00:00",
+                    "start_date": "2021-08-18",
+                    "finish_date": "2021-08-18"
                 }
             },
             {
@@ -574,6 +899,13 @@
                         "medium": "https://api-cdn.myanimelist.net/images/anime/11/27906.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/anime/11/27906l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "plan_to_watch",
+                    "score": 0,
+                    "num_episodes_watched": 0,
+                    "is_rewatching": false,
+                    "updated_at": "2022-03-22T20:55:47+00:00"
                 }
             },
             {
@@ -584,6 +916,13 @@
                         "medium": "https://api-cdn.myanimelist.net/images/anime/1146/113477.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/anime/1146/113477l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "plan_to_watch",
+                    "score": 0,
+                    "num_episodes_watched": 0,
+                    "is_rewatching": false,
+                    "updated_at": "2021-08-24T16:53:03+00:00"
                 }
             },
             {
@@ -594,6 +933,189 @@
                         "medium": "https://api-cdn.myanimelist.net/images/anime/1900/110097.jpg",
                         "large": "https://api-cdn.myanimelist.net/images/anime/1900/110097l.jpg"
                     }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "score": 8,
+                    "num_episodes_watched": 12,
+                    "is_rewatching": false,
+                    "updated_at": "2021-08-24T21:24:02+00:00",
+                    "start_date": "2021-08-24",
+                    "finish_date": "2021-08-24"
+                }
+            },
+            {
+                "node": {
+                    "id": 40787,
+                    "title": "Josee to Tora to Sakana-tachi",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1714/108892.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1714/108892l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "score": 9,
+                    "num_episodes_watched": 1,
+                    "is_rewatching": false,
+                    "updated_at": "2022-06-07T17:58:28+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 37999,
+                    "title": "Kaguya-sama wa Kokurasetai: Tensai-tachi no Renai Zunousen",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1295/106551.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1295/106551l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "score": 7,
+                    "num_episodes_watched": 12,
+                    "is_rewatching": false,
+                    "updated_at": "2021-08-24T16:36:00+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 35860,
+                    "title": "Karakai Jouzu no Takagi-san",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1591/95091.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1591/95091l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "plan_to_watch",
+                    "score": 0,
+                    "num_episodes_watched": 0,
+                    "is_rewatching": false,
+                    "updated_at": "2021-08-24T16:51:39+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 32281,
+                    "title": "Kimi no Na wa.",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/5/87048.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/5/87048l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "plan_to_watch",
+                    "score": 0,
+                    "num_episodes_watched": 0,
+                    "is_rewatching": false,
+                    "updated_at": "2021-08-24T21:22:08+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 36098,
+                    "title": "Kimi no Suizou wo Tabetai",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1768/93291.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1768/93291l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "score": 9,
+                    "num_episodes_watched": 1,
+                    "is_rewatching": false,
+                    "updated_at": "2021-10-27T13:41:09+00:00",
+                    "finish_date": "2021-10-27"
+                }
+            },
+            {
+                "node": {
+                    "id": 33206,
+                    "title": "Kobayashi-san Chi no Maid Dragon",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/5/85434.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/5/85434l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "score": 8,
+                    "num_episodes_watched": 13,
+                    "is_rewatching": false,
+                    "updated_at": "2021-12-27T14:33:58+00:00",
+                    "finish_date": "2021-12-27"
+                }
+            },
+            {
+                "node": {
+                    "id": 39247,
+                    "title": "Kobayashi-san Chi no Maid Dragon S",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1252/115539.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1252/115539l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "plan_to_watch",
+                    "score": 0,
+                    "num_episodes_watched": 0,
+                    "is_rewatching": false,
+                    "updated_at": "2021-12-27T14:34:48+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 35363,
+                    "title": "Kobayashi-san Chi no Maid Dragon: Valentine, Soshite Onsen! - Amari Kitai Shinaide Kudasai",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/5/88486.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/5/88486l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "score": 8,
+                    "num_episodes_watched": 1,
+                    "is_rewatching": false,
+                    "updated_at": "2021-12-27T14:35:43+00:00"
+                }
+            },
+            {
+                "node": {
+                    "id": 28851,
+                    "title": "Koe no Katachi",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1122/96435.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1122/96435l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "completed",
+                    "score": 8,
+                    "num_episodes_watched": 1,
+                    "is_rewatching": false,
+                    "updated_at": "2021-08-29T01:21:26+00:00",
+                    "start_date": "2021-08-29",
+                    "finish_date": "2021-08-29"
+                }
+            },
+            {
+                "node": {
+                    "id": 48926,
+                    "title": "Komi-san wa, Comyushou desu.",
+                    "main_picture": {
+                        "medium": "https://api-cdn.myanimelist.net/images/anime/1899/117237.jpg",
+                        "large": "https://api-cdn.myanimelist.net/images/anime/1899/117237l.jpg"
+                    }
+                },
+                "list_status": {
+                    "status": "plan_to_watch",
+                    "score": 0,
+                    "num_episodes_watched": 0,
+                    "is_rewatching": false,
+                    "updated_at": "2021-10-15T20:16:43+00:00"
                 }
             }
         ]
