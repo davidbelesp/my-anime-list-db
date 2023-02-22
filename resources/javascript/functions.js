@@ -175,43 +175,63 @@ function updateList(type, list) {
 }
 /* List functions */
 
-async function updateListPhp(type, username, offset = 0) {
+async function addFullList(jsonData) {
+   
+    jsonData["current"].forEach((entry) => {
+        addToList(entry)
+    })
+    jsonData["onhold"].forEach((entry) => {
+        addToList(entry)
+    })
+    jsonData["dropped"].forEach((entry) => {
+        addToList(entry)
+    })
+    jsonData["completed"].forEach((entry) => {
+        addToList(entry)
+    })
+    jsonData["planto"].forEach((entry) => {
+        addToList(entry)
+    })
+    
+    const loadingDiv = document.querySelector(".loading")
+    loadingDiv.style.display = "none"
+    const contentDiv = document.querySelector(".content")
+    contentDiv.style.display = "flex"
+}
+
+function addToList(entry){
     const listDiv = document.querySelector(".list-body");
 
-    let jsonData = await getList(type, username, offset);
+    const listElement = document.createElement("tr")
+    listElement.classList.add("list-entry")
     
-    jsonData.forEach((element) => {
-        const listElement = document.createElement("tr")
-        listElement.classList.add("list-entry")
-        
-        const status = document.createElement("td")
-        status.classList.add("entry-status")
-        status.classList.add(element["list_status"]["status"])
-        listElement.appendChild(status)
-        
-        const imageDiv = document.createElement("td")
-        imageDiv.classList.add("entry-image")
-        const image = element["node"]["main_picture"]["medium"]
-        imageDiv.style = `--image:url(${image})`
-        listElement.appendChild(imageDiv)
+    const status = document.createElement("td")
+    status.classList.add("entry-status")
+    status.classList.add(entry["list_status"]["status"])
+    listElement.appendChild(status)
+    
+    const imageDiv = document.createElement("td")
+    imageDiv.classList.add("entry-image")
+    const image = entry["node"]["main_picture"]["medium"]
+    imageDiv.style = `--image:url(${image})`
+    listElement.appendChild(imageDiv)
 
-        const title = document.createElement("td")
-        title.classList.add("entry-title")
-        title.innerHTML = element["node"]["title"]
-        listElement.appendChild(title)
+    const title = document.createElement("td")
+    title.classList.add("entry-title")
+    title.innerHTML = entry["node"]["title"]
+    listElement.appendChild(title)
 
-        const score = document.createElement("td")
-        score.classList.add("entry-score")
-        score.innerHTML = element["list_status"]["score"]
-        listElement.appendChild(score)
+    const score = document.createElement("td")
+    score.classList.add("entry-score")
+    score.innerHTML = entry["list_status"]["score"]
+    listElement.appendChild(score)
 
-        const progress = document.createElement("td")
-        progress.classList.add("entry-progress")
-        tempProgress1 = element["list_status"]["num_chapters_read"]
-        tempProgress2 = element["list_status"]["num_episodes_watched"]
-        tempProgress1 ? progress.innerHTML = tempProgress1 : progress.innerHTML = tempProgress2
-        listElement.appendChild(progress)
+    const progress = document.createElement("td")
+    progress.classList.add("entry-progress")
+    tempProgress1 = entry["list_status"]["num_chapters_read"]
+    tempProgress2 = entry["list_status"]["num_episodes_watched"]
+    tempProgress1 ? progress.innerHTML = tempProgress1 : progress.innerHTML = tempProgress2
+    listElement.appendChild(progress)
 
-        listDiv.appendChild(listElement)
-    })
+    listDiv.appendChild(listElement)
 }

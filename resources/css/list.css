@@ -4,6 +4,8 @@
     --font-color: white;
     --list-background: #333;
     --nav-color: #777;
+    --list-entry-odd: #555;
+    --list-entry-even: #666;
 
     --currently-col: #2db039;
     --completed-col: #26448f;
@@ -24,8 +26,19 @@ body {
 
 /* Wrapper */
 
-.content {
+.loading{
     display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    background-color: var(--list-background);
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    display: none;
     justify-content: center;
     background: var(--list-background);
     width: auto;
@@ -54,8 +67,6 @@ body {
 }
 
 /* List content */
-
-.list-table {}
 
 .list-content {
     background-color: #777;
@@ -93,7 +104,7 @@ body {
     background-color: var(--completed-col)
 }
 
-.on-hold {
+.on_hold {
     background-color: var(--onhold-col)
 }
 
@@ -101,7 +112,56 @@ body {
     background-color: var(--dropped-col)
 }
 
-.planto {
+.plan_to_watch {
     background-color: var(--planto-col)
 }
 
+/* LOADER */
+
+#progress{
+    font-size: 3em;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin:15px auto;
+    position: relative;
+    color: #FFF;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+  }
+  .loader::after,
+  .loader::before {
+    content: '';  
+    box-sizing: border-box;
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 50%;
+    left: 50%;
+    transform: scale(0.5) translate(0, 0);
+    background-color: #FFF;
+    border-radius: 50%;
+    animation: animloader 1s infinite ease-in-out;
+  }
+  .loader::before {
+    background-color: #FF3D00;
+    transform: scale(0.5) translate(-48px, -48px);
+  }
+  
+  @keyframes rotation {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  } 
+  @keyframes animloader {
+      50% {
+        transform: scale(1) translate(-50%, -50%);
+  }
+  }
+      

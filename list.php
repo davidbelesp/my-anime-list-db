@@ -21,6 +21,11 @@
 ?>
 
 <body>
+    <div class="loading">
+        <span class="loader"></span>
+        <p id="progress"></p>
+    </div>
+
     <div class="content">
         <div class="wrapper">
             <div class="header"></div>
@@ -31,13 +36,16 @@
                 <div class="list-content">
                     <table class="list-table">
                         <thead>
-                            <th>S</th>
+                            <th></th>
                             <th>Image</th>
                             <th>Title</th>
                             <th>Score</th>
-                            <th>Read</th>
+                            <?php 
+                            if($_GET["type"] == "manga") echo "<th>Chapters</th>";
+                            else echo "<th>Episodes</th>"?>
                         </thead>
                         <tbody class="list-body">
+
                         </tbody>
                     </table>
                 </div>
@@ -49,23 +57,13 @@
     var username = '".$_GET['user']."'
     var type = '".$_GET['type']."'
 </script>" ?>
-
 <script>
-    setTimeout(() => {
-        updateListPhp(type, username)
-    }, 0);
-</script>
-
-<script>
-    var offset = 20
-
-    window.onscroll = function(ev) {
-    if ((window.innerHeight + window.pageYOffset) >= document.body.offsetHeight) {
-        console.log("REACHING BOTTOM OF THE PAGE")
-        console.log("Loading index " + offset)
-        updateListPhp(type, username, offset)
-        offset += 20
+    async function updatePage(type, user){
+        const data = await getFullList(type, user)
+        await addFullList(data)
     }
-};
+    setTimeout(() => {
+        updatePage(type,username)
+    }, 0);
 </script>
 </html>
